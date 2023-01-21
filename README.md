@@ -34,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Projeto Habits é um app para ajudar a rastrear os hábitos.
 
+- [Visite o projeto on-line](https://rarikmilkrai.github.io/GerenciadordeHabitos)
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/Hso6NaBVzKPwrrPw4G2DzT/Habits-(i)-(Community)?node-id=6%3A343&t=7LFJ9D6PAMdfHaVa-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
