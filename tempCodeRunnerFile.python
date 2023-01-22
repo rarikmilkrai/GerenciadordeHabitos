@@ -1,0 +1,26 @@
+# Perguntar ao usuário a base da parede
+base = float(input("Qual é a base da parede (em metros)? "))
+
+# Perguntar ao usuário a altura da parede
+altura = float(input("Qual é a altura da parede (em metros)? "))
+
+# Calcular a área da parede
+area_da_parede = base * altura
+
+# Calcular a quantidade de cimento para o concreto (supondo que é necessário 1 saco de cimento para cada 3 metros cúbicos de concreto)
+quantidade_de_cimento = area_da_parede*altura / 3
+
+# Calcular a quantidade de areia fina (supondo que é necessário 1 m³ de areia fina para cada 3 metros cúbicos de concreto)
+quantidade_de_areia_fina = area_da_parede*altura / 3
+
+# Calcular a quantidade de areia grossa (supondo que é necessário 2 m³ de areia grossa para cada 3 metros cúbicos de concreto)
+quantidade_de_areia_grossa = area_da_parede*altura * 2/3
+
+# Calcular a quantidade de tijolos (supondo que cada tijolo tem 0,225 metros quadrados)
+quantidade_de_tijolos = area_da_parede / 0.225
+
+# Imprimir os resultados
+print("Quantidade de cimento necessária: {:.2f} Kg".format(quantidade_de_cimento*50))
+print("Quantidade de areia fina necessária: {:.2f} m³".format(quantidade_de_areia_fina))
+print("Quantidade de areia grossa necessária: {:.2f} m³".format(quantidade_de_areia_grossa))
+print("Quantidade de tijolos necessários: {:.2f}".format(quantidade_de_tijolos))
